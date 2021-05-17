@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'twitter_clone.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'twitter_clone',
-        'USER': os.environ.get('root'),
+        'USER': os.environ.get(''),
         'PASSWORD': os.environ.get(''),
         'HOST': '',
         'PORT': '',
